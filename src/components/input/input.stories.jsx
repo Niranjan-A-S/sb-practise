@@ -1,7 +1,7 @@
 import { Input } from "./input";
 
 const component = {
-  title: "Input",
+  title: "Form/Input",
   component: Input,
 };
 

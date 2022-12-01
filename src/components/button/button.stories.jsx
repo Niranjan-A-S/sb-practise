@@ -1,7 +1,7 @@
 import { Button } from "./button";
 
 const component = {
-  title: "Button",
+  title: "form/Button",
   component: Button,
 };
 
