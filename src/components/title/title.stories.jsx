@@ -7,4 +7,5 @@ const component = {
 
 export default component;
 
-export const Title1 = <Title>ABCD</Title>;
+export const Title1 = () => <Title label="ABCD" />;
+export const Title2 = () => <Title label="ABCD" />;

@@ -1,5 +1,6 @@
 export const Title = (props) => {
-  const { children } = props;
+  const { label, ...rest } = props;
+  console.log(props, rest);
 
-  return <h1>{children}</h1>;
+  return <div {...rest}>{label}</div>;
 };
