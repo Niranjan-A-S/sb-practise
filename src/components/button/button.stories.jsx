@@ -6,11 +6,13 @@ const component = {
   args: {
     children: "Common Name",
   },
+  // decorators: [(story) => <Center>{story()}</Center>], //one way to do decorators
 };
 
 export default component;
 
 export const Primary = () => <Button variant="primary">Primary</Button>;
+//  //another way to use the decorators
 export const Secondary = () => <Button variant="secondary">Secondary</Button>;
 export const Success = () => <Button variant="success">Success</Button>;
 export const Danger = () => <Button variant="danger">Danger</Button>;
